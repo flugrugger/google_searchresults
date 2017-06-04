@@ -9,4 +9,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-/* CSS Reset */
+/* CSS Reset */	
+
+
+.google_logo {
+	 background: url(https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png) no-repeat;
+	 background-size: 120px 44px;
+	 width: 120px;
+	 height: 44px;
+}
+
+.google_apps {
+	background: url(http://www.englewoodschools.net/cms/lib8/CO01900647/Centricity/Domain/1009/GoogleAppsIcon.png) no-repeat;
+	background-size: 30px 30px;
+	width: 30px;
+	height: 30px;
+}
+
+.sign_in {
+	text-decoration: none;
+	background-color: #4285f4;
+	color: #fff;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	line-height: 28px;
+	border-radius: 2px;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+}

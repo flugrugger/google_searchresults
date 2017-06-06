@@ -11,12 +11,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* CSS Reset */	
 
+.header {
+	width: 1781px;
+	height: 122px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.header_left {
+	position: absolute;
+	top: 18px;
+	left: 13px;
+	width: 712px;
+}
+
+.header_left input {
+	width: 559px;
+	height: 44px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font: 16px arial,sans-serif;
+	color: #000;
+	background: transparent url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D") repeat scroll 0% 0%;
+	border: medium none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	padding-left: 16px;
+}
 
 .google_logo {
 	 background: url(https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png) no-repeat;
 	 background-size: 120px 44px;
 	 width: 120px;
 	 height: 44px;
+}
+
+.header_right {
+	position: absolute;
+	right: 30px;
+	top: 26px;
+	width: 116px;
 }
 
 .google_apps {
@@ -36,4 +71,59 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border-radius: 2px;
 	font-size: 13px;
 	font-family: arial,sans-serif;
+	width: 45px;
+	padding: 0 12px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.header_bottomleft {
+	position: absolute;
+	top: 78px;
+	left: 133px;
+	width: 546px;
+	height: 30px;
+}
+
+.header_bottomleft li {
+	display: inline;
+}
+
+.header_bottomleft a {
+	text-decoration: none;
+	color: #666;
+	font-family: arial,sans-serif;
+	line-height: 40px;
+	font-size: small;
+	padding: 28px 16px 12px 16px;
+}
+
+.header_bottomright {
+	position: absolute;
+	top: 78px;
+	left: 590px;
+	width: 148px;
+	height: 30px;
+}
+
+.header_bottomright li {
+	display: inline;
+}
+
+.header_bottomright a {
+	text-decoration: none;
+	color: #666;
+	font-family: arial,sans-serif;
+	line-height: 40px;
+	font-size: small;
+	padding: 28px 16px 12px 16px;
+}
+
+.header_bottomleft a:hover {
+	color: #000;
+}
+
+.header_bottomright a:hover {
+	color: #000;
 }

@@ -56,10 +56,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .google_apps {
-	background: url(http://www.englewoodschools.net/cms/lib8/CO01900647/Centricity/Domain/1009/GoogleAppsIcon.png) no-repeat;
-	background-size: 30px 30px;
-	width: 30px;
-	height: 30px;
+	background: url(https://cdn2.iconfinder.com/data/icons/basicui/512/categories_grid_layout_menu_squares_tiles-256.png) no-repeat;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	margin: 5px 0 0 5px;
+}
+
+.google_apps:hover {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1oS9L6WO5xEUEaBbcOhW6xU83SGO3NeY_DkvUrXpuC3mQ2mq) no-repeat;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	margin: 5px 0 0 5px;
 }
 
 .sign_in {
@@ -206,4 +215,49 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .footer a:hover {
 	color: #000;
+}
+
+.related_search {
+	margin-left: 160px;
+	margin-bottom: 26px;
+	width: 592px;
+	height: 113px;
+	font-family: arial,sans-serif;
+}
+
+.related_search .left li {
+	list-style-type: none;
+}
+
+.related_search .right li {
+	list-style-type: none;
+}
+
+.related_search .left {
+	width: 75px;
+	margin-right: 32px;
+}
+
+.related_search .right {
+	position: relative;
+	left: 107px;
+	bottom: 75px;
+}
+
+.related_search a {
+	color: #1a0dab;
+	font-size: 14px;
+	line-height: 25px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.related_search a:hover {
+	text-decoration: underline;
+}
+
+.related_search .searches_related_to {
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 20px;
 }
